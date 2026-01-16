@@ -1,13 +1,11 @@
 """
 缺失值处理脚本
-适用于C题：处理数据集中的缺失值，提供多种填充策略
 """
 
 import pandas as pd
 import numpy as np
 from sklearn.impute import SimpleImputer, KNNImputer
 
-# ==================== 设置显示选项 ====================
 pd.set_option('display.max_columns', None)  # 显示所有列
 pd.set_option('display.width', 1000)  # 设置显示宽度
 
