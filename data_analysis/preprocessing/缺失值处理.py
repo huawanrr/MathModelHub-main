@@ -9,7 +9,7 @@ from sklearn.impute import SimpleImputer, KNNImputer
 
 # ==================== 设置显示选项 ====================
 pd.set_option('display.max_columns', None)  # 显示所有列
-pd.set_option('display.width', 1000)  # 设置显示宽度555
+pd.set_option('display.width', 1000)  # 设置显示宽度
 
 # ==================== 生成示例数据（含缺失值）====================
 np.random.seed(42)
